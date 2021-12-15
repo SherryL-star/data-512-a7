@@ -35,28 +35,32 @@ Data 512 A7 - Covid-19 Project .  The goal of this project is to explore the imp
 
   ### Output Dataset
   
-  - `wp_wpds_politicians_by_country`: combine the information from `page_data.csv` and `WPDS_2020_data.csv`, with the data of population and political articles of each country.
+  - `Hartford_mask_cases`: Combine the data from [Mask Mandates by County from CDC](https://data.cdc.gov/Policy-Surveillance/U-S-State-and-Territorial-Public-Mask-Mandates-Fro/62d6-pm5i) and [COVID-19 data from John Hopkins University](https://www.kaggle.com/antgoldbloom/covid19-data-from-john-hopkins-university?select=RAW_us_confirmed_cases.csv), then get the daily Covid-19 infection rate of Hartford county, CT with the information of mask mandate.
+ 
+     650 rows * 3 columns
+     Columns: date, Daily_Case_Rate, Face_Masks_Required_in_Public
     
-    45712 rows * 5 columns
+  - `HC_cases_mask`: This dataset records the daily Covid-19 confirmed cases in Hartford city,CT during the period of mask mandate.
   
-     Columns:
-     - 'country': country name 
-     - 'article_name' : the page title of political articles of each country
-     - 'revision_id': the edit ID of the last edit to the page
-     - 'article_quality_est': the score level of each political article : 
-         - FA - Featured article
-         - GA - Good article
-         - B - B-class article
-         - C - C-class article
-         - Start - Start-class article
-         - Stub - Stub-class article
-     - 'country_population': the population data of each country
-         
-  - `wp_wpds_countries-no_match`: list the countries and their political articles from `page_data.csv`, which had no matches in `WPDS_2020_data.csv`
+     264 rows * 2 columns
+     Columns: Date, Daily Confirmed Cases
+   
+  - `crime_2019_2020`: This dataset records the daily total number of crimes in Hartford city,CT during the period of mask mandate and the the same period in previous year. 
   
-     715 rows * 3 columns
+     365 rows * 3 columns
+     Columns: Date, 2019_dailyCrime, 2020_dailyCrime  
+     
+  - `HC_case_crime_2020`: This dataset combines the data from [Crime Incidents of the City of Hartford](https://data.hartford.gov/Public-Safety/Police-Incidents-01012005-to-Current/889t-nwfu) and [Covid-19 Cases by Town, Connecticut](https://data.ct.gov/Health-and-Human-Services/COVID-19-Tests-Cases-and-Deaths-By-Town-/28fr-iqnx) together, and records the daily number of crimes and Covid-19 confirmed cases in Hartford city,CT during the period of mask mandate. 
   
-     Columns:
-     - 'country': country name 
-     - 'page' : the page title of political articles of each country
-     - 'revision_id': the edit ID of the last edit to the page
+     360 rows * 3 columns
+     Columns: Date, Case_Number (the daily number of crimes), Daily Confirmed Cases 
+     
+  - `Category_Crime`: 45 crime categories in Hartford city, and the total amount of crimes in each category.
+    
+    45rows * 3 columns
+    Columns: Category, Crime_Number_2019, Crime_Number_2020
+    
+  - `regionCrime_compare`: 17 regions in Hartford city, and the total amount of crimes in each region.
+  
+     17 rows * 3 columns
+     Columns: Neighborhood, Case_Number_2019, Case_Number_2020
