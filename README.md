@@ -1,5 +1,5 @@
 # data-512-a7
-Data 512 A7 - Bias in Data Assignment .  The goal of this project is to explore the impact of Covid-19 mask mandate on local security and whether there is a correlation between the two factors in the city of Hartford, CT, and apply and practice human-centered data science. 
+Data 512 A7 - Covid-19 Project .  The goal of this project is to explore the impact of Covid-19 mask mandate on local security and whether there is a correlation between the two factors in the city of Hartford, CT, and apply and practice human-centered data science. 
 
 
 
@@ -12,15 +12,11 @@ Data 512 A7 - Bias in Data Assignment .  The goal of this project is to explore 
 ## Data 
 
 ### Original Datasets
-- [Politicians by Country from the English-language Wikipedia](https://figshare.com/articles/dataset/Untitled_Item/5513449)
-  This dataset contains data on most English-language Wikipedia articles within the category "Category:Politicians by nationality" and subcategories.
+- [COVID-19 data from John Hopkins University!](https://www.kaggle.com/antgoldbloom/covid19-data-from-john-hopkins-university?select=RAW_us_confirmed_cases.csv)
+  This is a daily updating version of COVID-19 Data Repository by the Center for Systems Science and Engineering (CSSE) at Johns Hopkins University (JHU).
   
-  Columns:
-  -  "country", containing the sanitised country name, extracted from the category name;
-  -  "page", containing the unsanitised page title.
-  -  "rev_id", containing the edit ID of the last edit to the page.
-  
-  License: under the CC-BY-SA 4.0 license
+  License: Attribution 4.0 International (CC BY 4.0)
+
   
  - [World Population Data Sheet](https://www.prb.org/international/indicator/population/table/)
    This dataset is published by the Population Reference Bureau and contains the population data of each country, and sub-region around the world in 2019.
