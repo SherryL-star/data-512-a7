@@ -1,14 +1,11 @@
 # data-512-a7
-Data 512 A2 - Bias in Data Assignment .  The goal of this assignment is to explore the concept of bias through data on Wikipedia articles - specifically, articles on political figures from a variety of countries.
+Data 512 A7 - Bias in Data Assignment .  The goal of this project is to explore the impact of Covid-19 mask mandate on local security and whether there is a correlation between the two factors in the city of Hartford, CT, and apply and practice human-centered data science. 
 
 
-## API 
-- This project using a machine learning system called ORES - "Objective Revision Evaluation Service", which is a machine learning tool that can provide estimates of Wikipedia article quality
-- The ORES REST API [documentation](https://ores.wikimedia.org/v3/#!/scoring/get_v3_scores_context_revid_model), provide access to a set of scoring models for wikipedia articles.
 
-- Term of Use
-The ORES REST API ptovided by the platfor of Swagger, it is free to use and licensed under the Apache 2.0 License.
-Please review the Swagger Open Source License [terms and conditions for use](https://swagger.io/license/) for more information.
+## Introduction
+- In the nearly two years since the Covid-19 outbreak, the pandemic is affecting every aspect of our lives. At the same time, some changes have taken place in social security during the pandemic period, which are precisely related to people's daily life.The safety and crime rate of an area are critical to the quality of well-being of local people, and they are also important human-centered concerns. As a human-centered data science project, this study is aimed at exploring the impact of Covid-19 mask mandate on local security and whether there is a correlation between the two factors. The main target location for the research is Hartford city, Connecticut. 
+- The results of this project showed that there was no significant correlation between the number of crimes and the number of confirmed cases in Hartford. There is a difference in crimes’ volume before and after the Covid-19 pandemic, but it is not significant. Meanwhile, through this project, I have completed a practice and application of human-centered data science. The research process deepened my understanding of what I learned in class and expanded my knowledge. 
 
 
 
