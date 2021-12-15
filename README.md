@@ -12,25 +12,27 @@ Data 512 A7 - Covid-19 Project .  The goal of this project is to explore the imp
 ## Data 
 
 ### Original Datasets
-- [COVID-19 data from John Hopkins University!](https://www.kaggle.com/antgoldbloom/covid19-data-from-john-hopkins-university?select=RAW_us_confirmed_cases.csv)
+- [COVID-19 data from John Hopkins University](https://www.kaggle.com/antgoldbloom/covid19-data-from-john-hopkins-university?select=RAW_us_confirmed_cases.csv)
   This is a daily updating version of COVID-19 Data Repository by the Center for Systems Science and Engineering (CSSE) at Johns Hopkins University (JHU).
   
   License: Attribution 4.0 International (CC BY 4.0)
 
   
- - [World Population Data Sheet](https://www.prb.org/international/indicator/population/table/)
-   This dataset is published by the Population Reference Bureau and contains the population data of each country, and sub-region around the world in 2019.
-  
-   Columns:
-   -  "FIPS", FIP code of each country and regions;
-   -  "Name", name of countries and regions.
-   -  "Type", specify 3 categories of each item: World, Sub-Region, Country.
-   -  "TimeFrame": 2019
-   -  Data(M): population data, in millions
-   -  Population: population data
-  
+ - [Mask Mandates by County from CDC](https://data.cdc.gov/Policy-Surveillance/U-S-State-and-Territorial-Public-Mask-Mandates-Fro/62d6-pm5i)
+   This dataset is published by CDC and contains the information of mask madate of each state of the United States.
+
    License: not specified
    
+ - [Crime Incidents of the City of Hartford](https://data.hartford.gov/Public-Safety/Police-Incidents-01012005-to-Current/889t-nwfu)
+   This dataset serves as the official record of reported crimes that have occurred in the City of Hartford since 2005 to the present. It contains a division by regions and categories of crime.
+   
+   License: Creative Commons license (CC0 1.0 Universal)
+ - [Covid-19 Cases by Town, Connecticut](https://data.ct.gov/Health-and-Human-Services/COVID-19-Tests-Cases-and-Deaths-By-Town-/28fr-iqnx)
+   This dataset includes reported COVID-19 cases, tests, and associated deaths among Connecticut residents.
+   
+   License: not specified
+
+
   ### Output Dataset
   
   - `wp_wpds_politicians_by_country`: combine the information from `page_data.csv` and `WPDS_2020_data.csv`, with the data of population and political articles of each country.
